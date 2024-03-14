@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-TW" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<meta property = "og:type" content="website" />
+	<meta property = "og:title" content="趁早，往嚮往中的自己前進" />
+	<meta property = "og:url" content="https://www.beauty-event.com.tw/bio30th">
+	<meta property = "og:description" content="緊緻、豐潤、抗初老--百優精純乳霜" >
+	<meta property = "og:image" content="https://www.beauty-event.com.tw/bio30th/img/share.jpg" />
+
+	<!-- CSS -->
+	<link href="https://file.myfontastic.com/ZoPSJi8hmajwE4j5X9buYF/icons.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.min.css">
+	<link rel="stylesheet" type="text/css" href="css/exchange.min.css">
+
+	<!-- js -->
+	<script src="js/jquery-2.2.2.min.js"></script>
+
+	<title>趁早為嚮往的自己，保持美麗肌底</title>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117580435-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-117580435-1');
+	</script>
+	
+	<!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N5Z2GGX');</script>
+  <!-- End Google Tag Manager -->
+</head>
+
+<body page="expired">	
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5Z2GGX"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+	<div class="top">
+		<div class="inner">
+            <div class="top_bg"><img src="img/bio30th/expired_top_main.png"></div>
+            <div class="logo"><img src="img/logo-dt.png"></div>
+		</div>
+	</div>
+
+	<div class="bottom">
+        <div class="inner">
+            <img src="img/bio30th/expired_bottom_main.png">
+
+            <div class="req_btn"><img src="img/bio30th/expired_req_btn.png"></div>
+        </div>
+    </div>
+
+	<script>
+		$(function(){
+			$('.req_btn').click(function(){
+				GEvent('重新申請');
+				window.open('voucher.html','_self');
+			});
+		});
+
+		function GEvent(action) {
+			var tmpStr = action;
+			console.log(tmpStr);
+			gtag('event', 'event_name', {
+				'event_label': action,
+				'event_action': action
+			});
+		}
+	</script>
+</body>
+</html>
